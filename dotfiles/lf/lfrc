@@ -1,0 +1,10 @@
+set hidden 
+set sortby time
+set icons true
+set color256 true
+set drawbox true
+set ignorecase
+set incsearch
+
+set previewer ~/.config/lf/pv.sh
+map i $~/.config/lf/pv.sh $f | less -R
