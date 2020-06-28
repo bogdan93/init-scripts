@@ -11,6 +11,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 feh --bg-scale ~/Pictures/horde.jpg &
 wal -i ~/Pictures/horde.jpg &
-dunst 
+dunst &
+dwm
 
 
