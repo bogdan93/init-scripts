@@ -2,13 +2,12 @@
 
 mkdir -p ${HOME}
 
-cp -fvr ../dotfiles/lf ${HOME}/.config/lf
-cp -fvr ../dotfiles/zsh ${HOME}/.config/zsh
-cp -fvr ../dotfiles/nvim ${HOME}/.config/nvim
-cp -fvr ../dotfiles/alacritty ${HOME}/.config/alacritty
+cp -fR ../dotfiles/lf ${HOME}/.config/
+cp -fR ../dotfiles/zsh ${HOME}/.config/
+cp -fR ../dotfiles/nvim ${HOME}/.config/
+cp -fR ../dotfiles/alacritty ${HOME}/.config/
 
-cp -fvr ../dotfiles/.zshrc ${HOME}/.zshrc
-cp -fvr ../dotfiles/.gitconfig ${HOME}/.gitconfig
-cp -fvr ../dotfiles/.xinitrc ${HOME}/.xinitrc
-cp -fvr ../dotfiles/.Xresources ${HOME}/.Xresources
+cp -fR ../dotfiles/.zshrc ${HOME}/.zshrc
+cp -fR ../dotfiles/.gitconfig ${HOME}/.gitconfig
+cp -fR ../dotfiles/.xinitrc ${HOME}/.xinitrc
 
