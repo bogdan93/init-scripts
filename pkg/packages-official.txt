@@ -9,6 +9,7 @@ bluez-utils
 chromium
 cmake
 discord
+dunst
 docker
 docker
 docker-compose
@@ -31,6 +32,7 @@ networkmanager-vpnc
 nodejs
 noto-fonts
 noto-fonts-cjk
+neovim
 npm
 pasystray
 pavucontrol
