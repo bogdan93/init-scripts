@@ -5,9 +5,10 @@ mkdir -p \
   ../dotfiles/nvim \
   ../dotfiles/alacritty
 
-cp ${HOME}/.zshrc ./dotfiles/
-cp ${HOME}/.gitconfig ./dotfiles/
-cp ${HOME}/.xinitrc ./dotfiles/
+cp 
+  ${HOME}/.zshrc \
+  ${HOME}/.gitconfig \
+  ${HOME}/.xinitrc
 
 cp -rv ${HOME}/.config/lf ../dotfiles/lf
 cp -rv ${HOME}/.config/zsh ../dotfiles/zsh
