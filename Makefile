@@ -7,3 +7,7 @@ apply-configs:
 install-packages:
 	cd pkg && sudo ./install-official-packages.sh && ./install-aur-packages.sh
 
+install-suckless:
+	cd ./suckless/dwm && $(MAKE) install
+	cd ./suckless/dwmblocks && $(MAKE) install
+	cd ./suckless/dmenu && $(MAKE) install
