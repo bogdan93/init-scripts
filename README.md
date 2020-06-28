@@ -21,7 +21,7 @@ make install-packages
 To configure the machine:
 
 ```
-make update-configs
+make apply-configs
 ```
 
 dwm, dwmblocks & dmenu compilation/install:
