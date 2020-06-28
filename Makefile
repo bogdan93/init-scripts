@@ -1,8 +1,8 @@
-update: 
-	cd pkg && ./update-config.sh
+update-configs: 
+	cd pkg && ./update-configs.sh
 
-apply-config:
-	cd pkg && ./apply-config.sh
+apply-configs:
+	cd pkg && ./apply-configs.sh
 
 install-packages:
 	cd pkg && sudo ./install-official-packages.sh && ./install-aur-packages.sh
