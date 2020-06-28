@@ -1,0 +1,3 @@
+skypeforlinux-stable-bin
+slack-desktop
+lazygit
